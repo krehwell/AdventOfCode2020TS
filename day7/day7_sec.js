@@ -1,7 +1,7 @@
 "use strict";
 exports.__esModule = true;
 var fs = require("fs");
-var input = fs.readFileSync("input.txt", "utf-8").split("\n").filter(function (x) { return x; });
+var input = fs.readFileSync("input1.txt", "utf-8").split("\n").filter(function (x) { return x; });
 function mapToObj(inp, obj) {
     var key = inp[0], value = inp[1];
     var newVal = value.split(",").map(function (x) { return x.trim(); });
